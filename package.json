@@ -1,0 +1,22 @@
+{
+  "name": "node-gmail-sender",
+  "version": "1.1.4",
+  "description": "A package to send emails through node & gmail.",
+  "main": "send-email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "gmail",
+    "email",
+    "sender",
+    "nodejs"
+  ],
+  "author": "Michael Auger",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.0.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
