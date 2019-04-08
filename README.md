@@ -13,7 +13,7 @@ const emailer = new Emailer(user, pass)
 
 const msg = "This is an email from node-gmail-sender";
 const subject = "Automated Email using Node-Gmail-Sender";
-const fromEmail = "michaelauger23@gmail.com";
+const fromEmail = "youremail@gmail.com";
 const toEmail = "someOtherPerson@gmail.com";
 
 emailer.send(msg, fromEmail, toEmail, subject);
